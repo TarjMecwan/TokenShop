@@ -1,0 +1,755 @@
+## Configuration for ServerTokens by KikiCro26
+## Plugin use intended for MC 1.8.x
+
+## This item will replace all Air items
+## If u don t want item  put Item: Air 
+NoItem:
+  Item: STAINED_GLASS_PANE
+  Meta: 15
+  DisplayName: '&e&l(!) Tokens'
+  Lore:
+  - ''
+## Configuration of /token shop
+##   '1': - Slot number/space in /token shop. DO NOT have same number twice!
+##       Item: DIAMOND_SWORD - Item that is shown in the inventory slot, you can use number for item name.
+##       Meta: 0 - Used for colored wool/glass/god apples (ex: 322:1). Normal items should have Meta = 0.
+##       Amount: 1 - Amount of item that is shown in /token shop (ex: a stack of diamonds = 64).
+##       DisplayName: '&b&lSuper Sword' - Name for item shown. Use ' ' to have it be the normal in-game name (ex: Diamond Sword)
+##       Price: 100 - Number of tokens needed to buy the item
+##       Encahnts: - Display encahnts in shop. Can be multiple lines/commands, just follow format.
+##           - 'give {player} 276 1 name:&b&lSuper_Sword'
+# For the enchantment ids visit http://www.minecraftforum.net/forums/minecraft-discussion/creative-mode/365638-enchantment-id-list
+# Enchantment Format: [Enchantment ID];[Enchantment Level]
+##       Lore: '&cBest sword ever!' - Lore of the item shown. Use ' ' to have nothing.
+##       Commands: - Commands sent upon buying of an item. Can be multiple lines/commands, just follow format.
+##           - 'give {player} 276 1 name:&b&lSuper_Sword'
+##       rCommands: - Random Commands sent upon buying of an item. Can be multiple lines/commands, just follow format.
+##           - 'give {player} 276 1 name:&b&lSuper_Sword'
+##           - 'give {player} 300 1'
+##       This above example and the command sent were created with the use of the plugin Essentials in mind.
+##       You can use any type of commands from any plugins, you just have to adjust the config accordingly and follow
+##       the proper format!
+ShopsList:
+##Name of shop
+##Permission is BeastTokens.shop.ShopName in this case PERKS
+  SHOP:
+## Number of slots in /token shop
+## HUGE NOTE: Number of slots must be a multiple of 9 (9/18/27/36/45/54)
+## Additionally, YOU MUST have an item defined in "Shop" for each slot number in "NumberOfSlots".
+## Otherwise, you will receive an error upon using /token shop!
+    NumberofSlots: 54
+## This Title will display name of Inventory
+    Title: '&e&l(!) Token Shop'
+## Item in Shop
+    Items:
+     '0':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '1':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '2':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '3':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '4':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '5':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '6':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '7':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '8':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '9':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '10':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '11':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '12':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '13':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '14':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '15':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '16':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '16':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '17':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '18':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '19':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '20':
+       Item: NETHER_STAR
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) &bCrate Key'
+       Price: 450
+       Lore: 
+         - '&7Purchase &e&nCrate Keys&7 with tokens acquired'
+         - '&7by killing mobs and using our /vote system'
+         - ''
+         - '&e&l(!) &a&lPrice: &7450 Tokens'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - 'crate givekey {player} Crate 1'
+     '21':
+       Item: CARROT
+       Meta: 3
+       Amount: 1
+       DisplayName: '&e&l(!) &cHeroic Key'
+       Price: 750
+       Lore: 
+         - '&7Purchase &e&nHeroic Keys&7 with tokens acquired'
+         - '&7by killing hostile mobs and other online players'
+         - ''
+         - '&e&l(!) &a&lPrice: &7750 Tokens'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - 'crate givekey {player} Heroic 1'
+     '22':
+       Item: ENDER_CHEST
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) &aJuly Crate'
+       Price: 2500
+       Lore:
+         - '&7Purchase &e&nJuly Crates&7 with tokens acquired'
+         - '&7by killing hostile mobs and other online players'
+         - ''
+         - '&e&l(!) &a&lPrice: &72,500 Tokens'
+       Commands:
+         - ''
+       rCommands:
+         - 'mcrate give {player} july 1'
+     '23':
+       Item: MOB_SPAWNER
+       Meta: 3
+       Amount: 1
+       DisplayName: '&e&l(!) &dMystery Mob Spawner'
+       Price: 750
+       Lore: 
+         - '&7Purchase &e&nMystery Spawners&7 with tokens acquired'
+         - '&7by killing hostile mobs and other online players'
+         - ''
+         - '&e&l(!) &a&lPrice: &7750 Tokens'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - 'mspawner give {player} 1'
+     '24':
+       Item: FEATHER
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) &7500 Thousand'
+       Price: 2000
+       Lore: 
+         - '&7Purchase &e&nOne Million Dollars&7 with tokens acquired'
+         - '&7by killing hostile mobs and other online players'
+         - ''
+         - '&e&l(!) &a&lPrice: &72,000 Tokens'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - 'eco give {player} 500000'
+     '25':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '26':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '27':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '28':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '29':
+       Item: PAPER
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) &6&lRANK &7» &8(&b&lKnight&8)'
+       Price: 5000
+       Lore: 
+         - '&7Purchase &e&nKnight Rank&7 with tokens acquired'
+         - '&7by killing hostile mobs and other online players'
+         - ''
+         - '&e&l(!) &a&lPrice: &75,000 Tokens'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - 'voucher give {player} knightrank 1'
+     '30':
+       Item: NAME_TAG
+       Meta: 0
+       Amount: 1
+       DisplayName: '&b&lTITLE &7» &a&lSALTY'
+       Price: 900
+       Lore:
+         - '&7Purchase &e&nSalty Title&7 with tokens acquired'
+         - '&7by killing hostile mobs and other online players'
+         - ''
+         - '&e&l(!) &a&lPrice: &7900 Tokens'
+       Commands:
+         - ''
+         - 'voucher give {player} saltytag 1'
+       rCommands:
+         - ''
+     '31':
+       Item: NAME_TAG
+       Meta: 0
+       Amount: 1
+       DisplayName: '&b&lTITLE &7» &a&lLAUNCH'
+       Price: 900
+       Lore:
+         - '&7Purchase &e&nLaunch Title&7 with tokens acquired'
+         - '&7by killing hostile mobs and other online players'
+         - ''
+         - '&e&l(!) &a&lPrice: &7900 Tokens'
+       Commands:
+         - ''
+         - 'voucher give {player} launchtag 1'
+     '32':
+       Item: DIAMOND_SWORD
+       Meta: 0
+       Amount: 1
+       DisplayName: '&b&lGKit &7» &a&lArcane'
+       Price: 4500
+       Lore:
+         - '&7Purchase &e&nArcane GKit&7 with tokens acquired'
+         - '&7by killing hostile mobs and other online players'
+         - ''
+         - '&e&l(!) &a&lPrice: &74,500 Tokens'
+       Commands:
+         - ''
+         - 'voucher give {player} arcanegkit 1'
+     '33':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '34':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '35':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '36':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '37':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '38':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '39':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '40':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '41':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '42':
+       Item: STAINED_GLASS_PANE
+       Meta: 7
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '43':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '44':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '45':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '46':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '47':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '48':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '49':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '50':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''
+     '51':
+       Item: STAINED_GLASS_PANE
+       Meta: 0
+       Amount: 1
+       DisplayName: '&e&l(!) Tokens'
+       Price: 0
+       Lore:
+         - '&7Welcome to &e&nLibertys&7 Token Shop'
+       Commands:
+         - ''
+         - ''
+       rCommands:
+         - ''

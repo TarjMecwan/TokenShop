@@ -1,0 +1,18 @@
+## Configuration for BeastTokens by KikiCro26
+## Plugin Version : 1.1
+## Plugin use intended for MC 1.7 - 1.9.x
+## Configuration options for ServerTokens
+Options:
+## Prefix used for all messages sent by the plugin.
+ Prefix: '&e&l(!) Tokens'
+## MySQL, File, and TokenEnchant are supported database drivers.
+ Drive: File
+ ## Amount of tokens that a player starts with.
+ StartingAmount: 0
+ ## Should mobs have a chance, defined by you, to give/drop ServerTokens to players that kill them
+ EnableTokenDrops: true
+ ##MySql Connection Information
+ Host: localhost
+ Database: DataName
+ User: UserName
+ Password: '1234'

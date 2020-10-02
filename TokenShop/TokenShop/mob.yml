@@ -1,0 +1,94 @@
+## Configuration for ServerTokens by KikiCro26
+## Plugin use intended for MC 1.8.x
+## Drop chances of ServerTokens per mob!
+## Chance: 1 = guaranteed drop || Chance: -1 = disable mob from dropping ServerTokens.
+## Chance: 4 = 1/4 or 25% chance || Chance: 100 = 1/100 or 1% chance, etc.
+## NumTokens: Number of ServerTokens given to the player upon killing that mob.
+DropChances:
+    SKELETON:
+        Chance: 1
+        NumTokens: 1
+    CREEPER:
+        Chance: 1
+        NumTokens: 1
+    CAVE_SPIDER:
+        Chance: 1
+        NumTokens: 1
+    SPIDER:
+        Chance: 1
+        NumTokens: 1
+    PIG_ZOMBIE:
+        Chance: 1
+        NumTokens: 1
+    ZOMBIE:
+        Chance: 1
+        NumTokens: 1
+    MAGMA_CUBE:
+        Chance: 1
+        NumTokens: 1
+    SLIME:
+        Chance: 1
+        NumTokens: 1
+    GHAST:
+        Chance: 1
+        NumTokens: 1
+    ENDERMAN:
+        Chance: 1
+        NumTokens: 1
+    SILVERFISH:
+        Chance: 1
+        NumTokens: 1
+    BLAZE:
+        Chance: 1
+        NumTokens: 1
+    BAT:
+        Chance: 1
+        NumTokens: 1
+    WITCH:
+        Chance: 1
+        NumTokens: 1
+    IRON_GOLEM:
+        Chance: 1
+        NumTokens: 1
+    PIG:
+        Chance: 1
+        NumTokens: 1
+    SHEEP:
+        Chance: 1
+        NumTokens: 1
+    MUSHROOM_COW:
+        Chance: 1
+        NumTokens: 1
+    COW:
+        Chance: 1
+        NumTokens: 1
+    CHICKEN:
+        Chance: 1
+        NumTokens: 1
+    SQUID:
+        Chance: 1
+        NumTokens: 1
+    WOLF:
+        Chance: 1
+        NumTokens: 1
+    OCELOT:
+        Chance: 1
+        NumTokens: 1
+    VILLAGER:
+        Chance: 1
+        NumTokens: 1
+    ENDER_DRAGON:
+        Chance: 1
+        NumTokens: 1
+    HORSE:
+        Chance: 1
+        NumTokens: 1
+    SNOWMAN:
+        Chance: 1
+        NumTokens: 1
+    WITHER:
+        Chance: 1
+        NumTokens: 1
+    SHULKER:
+        Chance: 1
+        NumTokens: 1

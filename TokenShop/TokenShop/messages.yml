@@ -1,0 +1,18 @@
+Help:
+ - "&7===============[ &5Beast&2Tokens &bUser Help &7]=============="
+ - "&b/token shop <name> &8: &7Spend your tokens"
+ - "&b/token list &8: &7List of Shops!"
+ - "&b/token balance &8: &7Check your token balance!"
+ - "&b/token balance <name> &8: &7Check another player's balance!"
+ - "&b/token pay <name> <amnt> &8: &7Give another player tokens!"
+ - "&7====================================================="
+AdminHelp:
+ - "&7===============[ &5Beast&2Tokens &bAdmin Help &7]=============="
+ - "&b/token add <name> <amnt> &8: &7Add tokens to a player's balance!"
+ - "&b/token remove <name> <amnt> &8: &7Remove tokens from a player's balance!"
+ - "&b/token set <name> <amnt> &8: &7Set a player's token balance!"
+ - "&b/token reload &8: &7Reload the plugin!"
+ - "====================================================="
+NoPermission: " &cYou do not have permission to use that!"
+CanAffordMessage: "&aYou can afford this Item."
+CantAffordMessage: "&cYou can t afford this Item"
